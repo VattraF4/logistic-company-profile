@@ -35,8 +35,8 @@ export default function Testimonials() {
     return (
         <section className="mt-32 flex flex-col items-center">
             <SectionTitle
-                title="What Our Clients Say About Lokka Logistics"
-                description="Trusted by importers and businesses worldwide for reliable shipping"
+                title="Our Quotation"
+                description="Insights and commitments from the team driving Lokka Logistics forward"
             />
             <div className='mt-12 flex flex-wrap justify-center gap-6'>
                 {data.map((item, index) => (
